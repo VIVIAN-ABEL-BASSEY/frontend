@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+.items{
+    width: 350px;
+}
+.items p{
+    margin: 6px 0px;
+}

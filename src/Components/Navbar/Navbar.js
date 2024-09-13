@@ -1,6 +1,6 @@
 import "./Navbar.css"
-import logo from "../Assets/Ecommerce_Assets/Assets/Frontend_Assets/logo.png"
-import cart_icon from "../Assets/Ecommerce_Assets/Assets/Frontend_Assets/cart_icon.png"
+import logo from "../Assets/Frontend_Assets/logo.png"
+import cart_icon from "../Assets/Frontend_Assets/cart_icon.png"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
