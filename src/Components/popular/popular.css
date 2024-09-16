@@ -1,0 +1,32 @@
+:root{
+    --firt-main-color:#FABC3F;
+    --sec-main-color:#E85C0D;
+    --third-main-color:#C7253E;
+    --secondary-color:#821131;
+    --footer-color:#2E073F;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-bottom:6rem;
+}
+.popular h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+.popular-item{
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    /* background-color: red; */
+}

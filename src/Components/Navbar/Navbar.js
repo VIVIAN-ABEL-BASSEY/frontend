@@ -9,8 +9,8 @@ function Navbar(){
     return(
         <div className="navbar">
             <div className="nav-logo">
+                <p>Allure Mart</p>
                 <img src={logo} alt=""/>
-                <p>Shopper</p>
             </div>
             <ul className="nav-menu">
                 <li onClick={()=>{setMenu("shop")}}><Link to="/" className="LinktextDecoration">Shop</Link> {menu==="shop" ? <hr/> : <></>}</li>

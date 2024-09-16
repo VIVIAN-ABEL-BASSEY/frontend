@@ -1,0 +1,20 @@
+:root{
+    --firt-main-color:#FABC3F;
+    --sec-main-color:#E85C0D;
+    --third-main-color:#C7253E;
+    --secondary-color:#821131;
+    --footer-color:#2E073F;
+}
+/* body{
+    background-color: red;
+} */
+.breadcrumbs{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--footer-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
